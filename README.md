@@ -3,13 +3,17 @@
 ## Usage
 First compile using your favorite compiler, then execute the executable as
 ```
-    <Executable_Name> <EECLASS_URL> <Save Location Name>
+    <Executable_Name> <EECLASS_URL> <Save Location Name> <Amount>
 ```
 
-The program won't work if any argument is missing.
-Default save location is under the executable directory.
+~~The program won't work if any argument is missing.~~
+Now work with three modes:
+- Only URL, default download directory is ./Download, default download amount is 200
+- URL, and specify directory, default download amount is 200
+- URL, and specify directory and download amount 
+The folder prefix is set to be same as the directory of the executable.
 
-eeclass url example:
+URL example:
 ```
     http://eeclass.utaipei.edu.tw/sysdata/doc/<hash_prefix>/<hash>/images/
 ```
