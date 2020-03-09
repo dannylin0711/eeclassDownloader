@@ -1,5 +1,6 @@
 # eeclassDownloader
- 
+eeclass只要教師上傳的是PPT，會自動轉檔成圖片檔放在上面，除非使用附件上傳，不然無法下載下來。
+基本上沒什麼用途，只是將投影片全部載下來。提供給教授傳了一堆圖片，然後懶得找教授拿PPT，又覺得一張一張載很麻煩的人。
 ## Usage
 First compile using your favorite compiler, then execute the executable as
 ```
